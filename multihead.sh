@@ -10,7 +10,6 @@ if [ $1 -eq "1" ]; then
   xrandr --output VGA1 --off;
   xrandr --output HDMI1 --off;
 
-  xrandr --output LVDS1 --mode 800x600;
   xrandr --output LVDS1 --mode 1366x768;
 fi
 
